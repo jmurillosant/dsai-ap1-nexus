@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
+
+# Django
+*.sqlite3
+db.sqlite3
+staticfiles/
+media/
+local_settings.py
+
+# Variáveis e segredos
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+
+# Editores
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Export de sessão grande
+prompts/sessoes/*.json.gz.tmp
